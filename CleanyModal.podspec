@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CleanyModal'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Swift UI Kit to present clean alert/modal'
 
 # This description is used to generate tags and improve search results.
@@ -31,6 +31,6 @@ Swift UI Kit to help to present clean and beautiful modal/alert in your iOS apps
   s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'CleanyModal/Classes/**/*'
+  s.source_files = 'CleanyModal/Classes/**/*.swift'
   s.resources = 'CleanyModal/Classes/*.xib'
 end
